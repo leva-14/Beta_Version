@@ -30,8 +30,7 @@
         <article>
             {% for post in posts %}
             <div class="post">
-                <div class="post-img">
-                </div>
+
                 <div class="post-text">
 
                 <h2 class="post-title"><a href="#" class='post-title'>{{ post.title }}</a></h2>
@@ -46,6 +45,14 @@
             </div>
             {% endfor %}
         </article>
+        <div class="footer">
+
+        <div class="t">
+        <div class="security">© Защищено 2020.</div>
+        <span >Автор проекта: Бойко Лев</span>
+        <div class="email">lev201611@gmail.com</div>
+    </div>
+</div>
 <!--        <div class="all-page">-->
 <!--        <h1 class="all-pages">Страницы</h1>-->
 <!--        <div class="next-prev">-->
@@ -69,6 +76,7 @@
 
         </div>
 
+
     <div class="main-menu">
             <h1 class="menu-title">Главное меню</h1>
             <h3 class="mmaac"><a href="{% url 'index' %}" class="mmaac">Главная</a></h3>
@@ -80,14 +88,7 @@
 
 </div>
 
-<div class="footer">
 
-        <div class="t">
-        <div class="security">© Защищено 2020.</div>
-        <span >Автор проекта: Бойко Лев</span>
-        <div class="email">lev201611@gmail.com</div>
-    </div>
-</div>
 </body>
 </html>
 
